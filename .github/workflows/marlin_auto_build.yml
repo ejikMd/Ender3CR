@@ -6,8 +6,8 @@ on:
     paths:
       - 'builds/**'
   # trigger every night at 03:30
-  schedule:
-    - cron:  '30 3 * * *'
+  #schedule:
+  #  - cron:  '30 3 * * *'
 
 jobs:
   create_builds:
